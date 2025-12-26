@@ -41,7 +41,10 @@
     "@angular/cli": "^21.0.4",
     "@angular/compiler-cli": "^21.0.0",
     "@types/express": "^5.0.1",
+    "@types/jasmine": "^5.1.13",
     "@types/node": "^20.17.19",
+    "@vitest/ui": "^4.0.16",
+    "jasmine-core": "^5.13.0",
     "jsdom": "^27.1.0",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"

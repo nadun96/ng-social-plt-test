@@ -1,0 +1,6 @@
+<ol>
+    @for (item of (users$ | async) ?? []; track item.id) {
+    <li>{{ item.name }} ({{ item.id }})</li>
+    }
+</ol>
+<button (click)="refreshUsers()">Load Users</button>
